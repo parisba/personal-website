@@ -1,0 +1,34 @@
+/*Base class*/
+body {color:#999; background-color:#000; font-family:"Helvetica Neue", Helvetica, arial, sans-serif; font-size:11px; line-height:1.8em; background-image: url(../images/bck.jpg); padding:0; margin:0;}
+
+/* Main structure classes */
+.wrapper {float:left; width:100%; height:380px;background-image:url(../images/top_bck.png); background-repeat: repeat-x; background-position: top;}
+.box {position:absolute; top:40%; left:50%; auto;width:780px;   margin:-180px 0 0 -390px;background-image:url(../images/arrow.png); background-repeat: no-repeat; background-position: bottom;}
+.left {float:left;width:339px;border-right:1px solid #333;text-align:right;padding:20px 30px 20px 20px;min-height:230px;}
+.right {float:right;width:349px;text-align: left;padding:20px;border-left:1px solid #000; min-height:230px;}
+.logo {margin:0px 0 10px 0;}
+.form {background-image: url(../images/input_bck.png); background-repeat: repeat-x; width:660px; float:left; padding:15px 40px; border-top:1px solid #333; margin:92px 20px 0 20px; display:block; }
+.footer {position:absolute;bottom:0;left:50%;margin-left:-390px;width:780px;border-top:1px solid #333;font-size:10px;text-align:center;padding:5px 0; z-index:-1; color:#666;}
+
+/*Headings*/
+h1, h2, h3, h4, h5, h6 {color:#fff; padding:0; margin:0;font-weight:lighter;font-family: Helvetica, arial;line-height:1.2em;}
+h2 {font-size: 1.5em;}
+h3 {font-size:1.2em; margin:1em 0 0 0;}
+
+/*HTML defaults*/
+blockquote {padding:0;margin:0;font-style: italic;font-size:1.6em;color:#fff;line-height: 1.4em;}
+a:link, a:visited{color:#ff6a00;text-decoration:none;}
+a:hover {text-decoration:underline;}
+p {margin:5px 0;}
+
+/*Image classes*/
+img.icon {float:left;padding:5px 10px 0 0;}
+img.small_icon {float:right;padding:5px;}
+
+/*CSS3 effects
+h2, h3 {text-shadow: 1px 1px 0px #000;}
+.form {-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius:5px;}*/
+
+/* Form styles */
+input#emailForm {font-size:3em;color:#666;border-top:4px solid #ccc;border-left:4px solid #ccc;float:left;width:518px; height:44px;}
+#submitButton {background: none;width:137px;height:52px;background-image: url(../images/submit_button.png);background-repeat: no-repeat;border:0px;color:#fff;margin-top:0px;display:inline;position: absolute;right:60px;float:left;}

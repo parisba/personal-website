@@ -1,0 +1,22 @@
+/*Base class*/
+body {color:#999; background-color:#000; font-family:"Helvetica Neue", Helvetica, arial, sans-serif; font-size:12px; line-height:1.2em; background-image: url(../images/bck.jpg); padding:0; margin:0;}
+
+.wrapper {float:left; width:100%; height:380px;background-image:url(../images/top_bck.png); background-repeat: repeat-x; background-position: top;}
+.box {position:absolute; top:45%; left:50%;width:780px;   margin:-180px 0 0 -390px;}
+.left {float:left;width:339px;border-right:1px solid #333;text-align:right;padding:20px 30px 20px 20px;min-height:230px;}
+.right {float:right;width:349px;text-align: left;padding:20px;border-left:1px solid #000; min-height:230px;}
+
+
+h1, h2, h3, h4, h5, h6 {color:#fff; padding:0; margin:0;font-weight:lighter;font-family: Helvetica, arial;line-height:1.2em;}
+h2 {font-size: 1.5em;}
+h3 {font-size:1.2em; margin:1em 0 0 0;}
+
+
+blockquote {padding:0;margin:0;font-style: italic;font-size:1.6em;color:#fff;line-height: 1.4em;}
+a:link, a:visited{color:#FFFFFF;text-decoration:none;border: 0;}
+a:hover {text-decoration:underline;}
+p {margin:5px 0;}
+
+
+img.icon {float:left;padding:5px 10px 0 0;}
+img.small_icon {float:right;padding:5px;border:0;}
